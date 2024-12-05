@@ -2,10 +2,9 @@ import { Button } from './components/Button';
 
 function App() {
   return (
-    <div>
-      <Button variant="bordered">Confirm</Button>
-      <Button >Cancel</Button>
-
+    <div className="button-container">
+      <Button variant="primary">Confirm</Button>
+      <Button variant="bordered">Cancel</Button>
     </div>
   );
 }
