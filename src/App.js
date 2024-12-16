@@ -2,6 +2,7 @@ import { Button } from './components/Button';
 import { Input } from './components/Input';
 import { Typography } from './components/Typography';
 import { Heading } from './components/Heading';  
+import { Tooltip } from './components/Tooltip';
 
 
 function App() {
@@ -31,6 +32,8 @@ function App() {
             {/* <Input type="text" placeholder="Enter your password" disabled label="Name" value="Disabled"/> */}
         </div>
 
+        {/* Typography */}
+
         <div className="typography-container">
           <Typography textSize="sm">
           SM. Our mission is to redefine the model of learning and re-engineer
@@ -58,6 +61,8 @@ function App() {
           </Typography>
         </div>
 
+        {/* Heading */}
+
         <div className="heading-container">
           <Heading level={1} className="heading">H1. Heading 1</Heading>
           <Heading level={2} className="heading">H2. Heading 2</Heading>
@@ -66,6 +71,18 @@ function App() {
           <Heading level={5} className="heading">H5. Heading 5</Heading>
           <Heading level={6} className="heading">H6. Heading 6</Heading>
         </div>
+
+        {/* Tooltip */}
+
+        <div className="tooltip-container">
+          <Tooltip text="I am a tooltip">Tooltip Top</Tooltip>
+          <Tooltip text="I am a tooltip" position="left">Tooltip Left</Tooltip>
+          <Tooltip text="I am a tooltip" position="right">Tooltip Right</Tooltip>
+          <Tooltip text="I am a tooltip" position="bottom">Tooltip Bottom</Tooltip>
+        </div>
+
+        {/* Accordion */}
+
 
       
     </div>

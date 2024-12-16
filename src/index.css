@@ -46,3 +46,12 @@ body {
   width: 50%;
   grid-template-rows: repeat(3, auto);
 }
+
+.tooltip-container {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center; 
+  justify-content: center;
+  gap: 38px;
+  margin-top: 10px;  
+}
