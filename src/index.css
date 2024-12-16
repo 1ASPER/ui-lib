@@ -40,3 +40,9 @@ body {
   grid-template-rows: repeat(3, auto);
   gap: 5px;
 }
+
+.heading-container {
+  display: grid;
+  width: 50%;
+  grid-template-rows: repeat(3, auto);
+}

@@ -1,6 +1,7 @@
 import { Button } from './components/Button';
 import { Input } from './components/Input';
 import { Typography } from './components/Typography';
+import { Heading } from './components/Heading';  
 
 
 function App() {
@@ -55,6 +56,15 @@ function App() {
           please create school profiles. Instructors and students may signup
           independent user account. For questions, contact us.
           </Typography>
+        </div>
+
+        <div className="heading-container">
+          <Heading level={1} className="heading">H1. Heading 1</Heading>
+          <Heading level={2} className="heading">H2. Heading 2</Heading>
+          <Heading level={3} className="heading">H3. Heading 3</Heading>
+          <Heading level={4} className="heading">H4. Heading 4</Heading>
+          <Heading level={5} className="heading">H5. Heading 5</Heading>
+          <Heading level={6} className="heading">H6. Heading 6</Heading>
         </div>
 
       
