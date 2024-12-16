@@ -9,12 +9,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.wrapper {
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
 .button-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 20px;
+  width: 45%;
+  align-items: center;
 }
 

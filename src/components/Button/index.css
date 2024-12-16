@@ -1,8 +1,8 @@
 /* Button */
 .my-button {
-    min-width: 150px;
+    min-width: 140px;
     max-height: 50px;
-    border: none;
+    border: 1px solid transparent;
     padding: 10px 20px;
     border-radius: 6px;
     cursor: pointer;
@@ -15,7 +15,6 @@
     text-decoration: none;
 
     transition: background-color 0.3s, color 0.3s;
-
 }
 
 /* Variant */
@@ -25,7 +24,7 @@
 }
 
 .my-button--primary:hover {
-    background-color: #0056b3;
+    background-color: #054283;
 }
 
 .my-button--bordered {
@@ -35,7 +34,8 @@
 }
 
 .my-button--bordered:hover {
-    background-color: #d4d4d4;
+    background-color: rgba(0, 111, 238, 1);
+    color: white;
 }
 
 /* Size */
@@ -56,5 +56,4 @@
     max-height: 60px;
     font-size: 18px;
 }
-
 
