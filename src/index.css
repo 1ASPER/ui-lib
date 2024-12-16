@@ -34,3 +34,9 @@ body {
   margin: 10px;
 }
 
+.typography-container {
+  display: grid;
+  width: 70%;
+  grid-template-rows: repeat(3, auto);
+  gap: 5px;
+}

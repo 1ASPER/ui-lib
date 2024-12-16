@@ -1,5 +1,7 @@
 import { Button } from './components/Button';
 import { Input } from './components/Input';
+import { Typography } from './components/Typography';
+
 
 function App() {
   return (
@@ -27,6 +29,34 @@ function App() {
             <Input type="text" placeholder="Danger" danger label="Name" />
             {/* <Input type="text" placeholder="Enter your password" disabled label="Name" value="Disabled"/> */}
         </div>
+
+        <div className="typography-container">
+          <Typography textSize="sm">
+          SM. Our mission is to redefine the model of learning and re-engineer
+          its process by providing innovative administrative and instructional
+          technologies. Click here for our beliefs. If you are a school
+          administrator and would like to use ecourse.org for your classes,
+          please create school profiles. Instructors and students may signup
+          independent user account. For questions, contact us.
+          </Typography>
+          <Typography textSize="md">
+          MD. Our mission is to redefine the model of learning and re-engineer
+          its process by providing innovative administrative and instructional
+          technologies. Click here for our beliefs. If you are a school
+          administrator and would like to use ecourse.org for your classes,
+          please create school profiles. Instructors and students may signup
+          independent user account. For questions, contact us.
+          </Typography>
+          <Typography textSize="lg">
+          LG. Our mission is to redefine the model of learning and re-engineer
+          its process by providing innovative administrative and instructional
+          technologies. Click here for our beliefs. If you are a school
+          administrator and would like to use ecourse.org for your classes,
+          please create school profiles. Instructors and students may signup
+          independent user account. For questions, contact us.
+          </Typography>
+        </div>
+
       
     </div>
   );
