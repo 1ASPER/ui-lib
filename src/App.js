@@ -1,4 +1,5 @@
 import { Button } from './components/Button';
+import { Input } from './components/Input';
 
 function App() {
   return (
@@ -16,6 +17,15 @@ function App() {
             <Button className='button' variant ='bordered' size='medium'>md, bordered</Button>
             <Button className='button' variant ='bordered' size='small'>sm, bordered</Button>
             
+        </div>
+
+        {/* Input */}
+
+        <div className="input-container">
+            <Input type="text" placeholder="Ivan Ivanov" label="Name" />
+            <Input type="text" placeholder="Focus" label="Name" />
+            <Input type="text" placeholder="Danger" danger label="Name" />
+            {/* <Input type="text" placeholder="Enter your password" disabled label="Name" value="Disabled"/> */}
         </div>
       
     </div>

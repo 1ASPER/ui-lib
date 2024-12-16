@@ -26,3 +26,11 @@ body {
   align-items: center;
 }
 
+.input-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 15px;
+  margin: 10px;
+}
+
